@@ -1,12 +1,12 @@
-# Medical Chatbot using LLaMA2 RAG with Pinecone
+# Book Translation using OpenAI and LlamaIndex
 
-This project demonstrates an end-to-end pipeline for a medical chatbot using LLaMA2 Retrieval-Augmented Generation (RAG) and Pinecone. The chatbot allows users to ask medical-related questions and get accurate answers based on a knowledge base.
+This project demonstrates an end-to-end pipeline for translating books using OpenAI's language models and LlamaIndex. The application supports uploading book texts, translating them into different languages, and indexing the translations for efficient search and retrieval.
 
 ## Features
 
-- Ask medical-related questions.
-- Retrieve and generate accurate answers using LLaMA2 RAG model.
-- Fast and efficient search with Pinecone.
+- Upload book texts.
+- Translate book texts into multiple languages using OpenAI's language models.
+- Index the translations using LlamaIndex for efficient search.
 - User-friendly interface with Streamlit.
 
 ## Getting Started
@@ -17,4 +17,4 @@ Follow these instructions to set up and run the project locally.
 
 - Python 3.7 or higher
 - Pip (Python package installer)
-- Pinecone API Key
+- OpenAI API Key
